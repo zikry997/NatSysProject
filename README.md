@@ -1136,7 +1136,12 @@ total 20
 4 drwxrwxrwx+ 2 codespace codespace 4096 May 30 10:07 .oryx
 4 drwxrwxrwx+ 4 codespace root      4096 May 30 10:07 NatSysProject
 ```
-7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
+7. Run the command **free -h** . ***(1 mark)*** 
+```@zikry997 ➜ /workspaces $ free -h
+              total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       3.7Gi       349Mi       1.0Mi       3.7Gi       3.8Gi
+Swap:            0B          0B          0B
+```
 8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
 9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
 10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.

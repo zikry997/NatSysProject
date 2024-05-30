@@ -1244,13 +1244,13 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   3823.8 avail Mem
 @zikry997 ➜ /workspaces $ uname -a
 Linux codespaces-d64328 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 ```
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+11. What is the available free memory in the system. ***(1 mark)*** __349MiB__.
+12. What is the available disk space mounted on /workspace. ***(1 mark)*** __16,701,792 1K-blocks (approximately 16 GB).__.
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __The version is 6.5.0-1019-azure and the hardware architecture is x86_64.__.
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __ls lists files and directories in a directory, while ls -asl provides a detailed listing, including hidden files, sizes in blocks, and additional information about each file.__.
+15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __2560 4K pages__.
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __2996.443 MHz__.
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __PID 28496__.
 
 ## Running your own container instance.
 

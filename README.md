@@ -23,7 +23,7 @@ Team Mates:
 ***Questions:***
 
 1. What is the link of the fork Net&Sys Assignment in your repository. ***(1 mark)*** _https://github.com/zikry997/NatSysProject_
-2. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
+2. How many files and folders are in this repository. ***(1 mark)***  1 files and 3 folder.
 
 
 ## Exploring github codespaces
@@ -55,9 +55,9 @@ Team Mates:
 
 ***Questions:***
 
-1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Fill answer here__.
-2. What are the two options of RAM, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __Fill answer here__.
-3. Why must we commit and sync our current work on source control? ***(1 mark)*** __Fill answer here__.
+1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** Linux
+2. What are the two options of RAM, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __from 2 cores, 8 GB RAM, and 32 GB storage, up to 32 cores, 64 GB RAM, and 128 GB storage.__.
+3. Why must we commit and sync our current work on source control? ***(1 mark)*** __Ensures version control and collaboration by tracking changes, facilitating backup, supporting continuous integration, and enabling code review.__
 
 ## Exploring the Terminal
 
@@ -74,7 +74,8 @@ codespace
 
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
-1. Run the command **pwd** . ***(1 mark)*** __Fill answer here__.
+1. Run the command **pwd** . ***(1 mark)***
+'codespace'
 2. Run the command **cat /etc/passwd** . ***(1 mark)*** __Fill answer here__.
 3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
 4. Run the command **du** . ***(1 mark)*** __Fill answer here__.

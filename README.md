@@ -1202,8 +1202,48 @@ cache_alignment : 64
 address sizes   : 48 bits physical, 48 bits virtual
 power management:
 ```
-9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
-10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
+9. Run the command **top** and type **q** to quit. ***(1 mark)***
+```bash
+@zikry997 ➜ /workspaces $ top
+processor       : 1
+vendor_id       : AuthenticAMD
+cpu family      : 25
+model           : 1
+model name      : AMD EPYC 7763 64-Core Processor
+stepping        : 1
+microcode       : 0xffffffff
+cpu MHz         : 3083.136
+cache size      : 512 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 1
+initial apicid  : 1
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 13
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext invpcid_single vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpc
+top - 11:06:06 up  1:00,  0 users,  load average: 0.26, 0.29, 0.36
+Tasks:  51 total,   1 running,  50 sleeping,   0 stopped,   0 zombie
+top - 11:07:12 up  1:01,  0 users,  load average: 0.67, 0.37, 0.38
+Tasks:  51 total,   1 running,  50 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.5 us,  4.4 sy,  0.0 ni, 92.8 id,  0.2 wa,  0.0 hi,  0.2 si,  0.0 st
+MiB Mem :   7929.6 total,    318.3 free,   3789.7 used,   3821.6 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   3823.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND          
+  28496 codespa+  20   0   21.2g 438428  51584 S   3.3   5.4   1:40.59 node             
+   2006 codespa+  20   0  984448 129180  42112 S   0.7   1.6   0:25.62 node             
+   7566 codespa+  20   0   21.1g 342800  46336 S   0.3   4.2   0:39.30 node             
+   9758 codespa+  20   0  851828  69868  38784 S   0.3   0.9   0:04.29 node   
+   ```          
+10. Run the command **uname -a**. ***(1 mark)***
+```bash
+@zikry997 ➜ /workspaces $ uname -a
+Linux codespaces-d64328 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+```
 11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
 12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.

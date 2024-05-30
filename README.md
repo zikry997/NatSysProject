@@ -1126,7 +1126,16 @@ shm                65536        8     65528   1% /dev/shm
 @zikry997 ➜ /workspaces $ ls
 \NatSysProject
 ```
-6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
+6. Run the command **ls -asl** . ***(1 mark)***
+```
+@zikry997 ➜ /workspaces $ ls -asl
+total 20
+4 drwxr-xrwx+ 5 codespace root      4096 May 30 10:07 .
+4 drwxr-xr-x  1 root      root      4096 May 30 10:07 ..
+4 drwxr-xr-x+ 4 codespace root      4096 May 30 10:07 .codespaces
+4 drwxrwxrwx+ 2 codespace codespace 4096 May 30 10:07 .oryx
+4 drwxrwxrwx+ 4 codespace root      4096 May 30 10:07 NatSysProject
+```
 7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
 8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
 9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.

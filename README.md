@@ -1404,8 +1404,25 @@ NETWORK ID     NAME      DRIVER    SCOPE
 ```
 3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)***
 __bluenet gateway: 172.18.0.1 rednet gateway: 172.19.0.1__
-4. What is the network address for the running container c1 and c2.
+4. What is the network address for the running container c1 and c2.__bluenet address: 172.18.0.3 rednet address: 172.19.0.3__
 5. Using the command ```docker exec c1 ping c2```, which basically issue a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)***
+```bash
+@zikry997 ➜ /workspaces/NatSysProject (main) $ docker exec c1 ping c2
+PING c2 (172.18.0.3): 56 data bytes
+64 bytes from 172.18.0.3: seq=0 ttl=64 time=0.226 ms
+64 bytes from 172.18.0.3: seq=1 ttl=64 time=0.090 ms
+64 bytes from 172.18.0.3: seq=2 ttl=64 time=0.097 ms
+64 bytes from 172.18.0.3: seq=3 ttl=64 time=0.089 ms
+64 bytes from 172.18.0.3: seq=4 ttl=64 time=0.125 ms
+64 bytes from 172.18.0.3: seq=5 ttl=64 time=0.082 ms
+64 bytes from 172.18.0.3: seq=6 ttl=64 time=0.089 ms
+64 bytes from 172.18.0.3: seq=7 ttl=64 time=0.080 ms
+64 bytes from 172.18.0.3: seq=8 ttl=64 time=0.113 ms
+64 bytes from 172.18.0.3: seq=9 ttl=64 time=0.087 ms
+64 bytes from 172.18.0.3: seq=10 ttl=64 time=0.082 ms
+64 bytes from 172.18.0.3: seq=11 ttl=64 time=0.087 ms
+64 bytes from 172.18.0.3: seq=12 ttl=64 time=0.109 ms
+```
 
 ## Bridging two SUB Networks
 1. Let's try this again by creating a network to bridge the two containers in the two subnetworks
